@@ -96,6 +96,9 @@ footer p {
         padding: 5%;
         margin-bottom: 17%;
     }
+    #content > h1 {
+        margin: 0 0 2% 0;
+    }
     footer {
         height: 8%;
     }
