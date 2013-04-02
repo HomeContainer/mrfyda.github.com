@@ -43,6 +43,7 @@ nav ul li a:hover {
 }
 #content {
     margin: 5% 0;
+    text-shadow: 0 0 0.05em #fff;
 }
 #content h1,
 #content h2 {
