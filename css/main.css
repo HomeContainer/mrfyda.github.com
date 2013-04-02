@@ -28,15 +28,18 @@ nav ul li {
     display: inline-block;
     font-size: 1.2em;
     list-style-type: none;
-    padding: 1em 5% 1em 1em;
-    width: 8%;
+    width: 15%;
 }
 nav ul li.active a{
     color: #fff;
 }
 nav ul li a {
     color: #ccc;
+    display: block;
+    height: 100%;
+    padding: 1em 5% 1em 1em;
     text-decoration: none;
+    width: 100%;
 }
 nav ul li a:hover {
     color: #000;
@@ -90,7 +93,7 @@ footer p {
 @media all and (max-width: 1200px) {
     nav ul li {
         margin-bottom: 1%;
-        width: 18%;
+        width: 25%;
     }
 }
 @media all and (max-width: 600px) {
@@ -99,6 +102,9 @@ footer p {
         margin-bottom: 2%;
         padding: 0.5em;
         width: auto;
+    }
+    nav ul li a {
+        padding: 0;
     }
     #content {
         background-color: rgba(255, 255, 255, 0.7);
