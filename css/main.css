@@ -57,6 +57,7 @@ nav ul li a:hover {
 #content {
     margin: 5% 0;
     text-shadow: 0 0 0.05em #fff;
+    width: 50%;
 }
 #content h1,
 #content h2 {
@@ -78,7 +79,6 @@ nav ul li a:hover {
 .portfolio-item {
     background: #fff;
     padding: 2%;
-    width: 50%;
 }
 .portfolio-item img {
     border: 1px solid #aaa;
@@ -120,13 +120,13 @@ footer p {
         background-color: rgba(255, 255, 255, 0.7);
         padding: 5%;
         margin-bottom: 17%;
+        width: auto;
     }
     #content h1 {
         margin: 0 0 2% 0;
     }
     .portfolio-item {
         margin: 0;
-        width: auto;
     }
     footer {
         height: 8%;
