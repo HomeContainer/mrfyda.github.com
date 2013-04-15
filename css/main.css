@@ -1,4 +1,4 @@
-/* Rafael Cortês
+/* Rafael Cortï¿½s
    v1.0 | 20130401
    Author: mrfyda
    License: none (public domain)
@@ -84,6 +84,7 @@ nav ul li a:hover {
 }
 .portfolio-item img {
     border: 1px solid #aaa;
+    display: block;
 }
 .horizontal li {
     display: inline;
