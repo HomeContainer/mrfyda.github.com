@@ -1,4 +1,4 @@
-/* Rafael Cort�s
+/* Rafael Cortês
    v1.0 | 20130401
    Author: mrfyda
    License: none (public domain)
@@ -47,10 +47,8 @@ nav ul li.active a{
 nav ul li a {
     color: #ccc;
     display: block;
-    height: 100%;
     padding: 1em 5% 1em 1em;
     text-decoration: none;
-    width: 100%;
 }
 nav ul li a:hover {
     color: #000;
