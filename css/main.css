@@ -55,26 +55,30 @@ nav ul li a {
 nav ul li a:hover {
     color: #000;
 }
-#content {
+.content {
+    display: none;
     margin: 5% 0;
     text-shadow: 0 0 0.05em #fff;
     width: 50%;
 }
-#content h1,
-#content h2 {
+.content.active {
+    display: block;
+}
+.content h1,
+.content h2 {
     color: #555;
     font-size: 2.8em;
     margin: 0 0 2% 0;
 }
-#content h2 {
+.content h2 {
     font-size: 2.0em;
 }
-#content p,
-#content ul li {
+.content p,
+.content ul li {
     font-size: 1.5em;
     line-height: 1.2em;
 }
-#content ul li a span {
+.content ul li a span {
     position: absolute;
     margin-top: 0.4em;
 }
@@ -122,13 +126,13 @@ footer p {
     nav ul li a {
         padding: 0;
     }
-    #content {
+    .content {
         background-color: rgba(255, 255, 255, 0.7);
         padding: 5%;
         margin-bottom: 17%;
         width: auto;
     }
-    #content h1 {
+    .content h1 {
         margin: 0 0 2% 0;
     }
     .portfolio-item {

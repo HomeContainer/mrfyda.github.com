@@ -5,19 +5,22 @@
         <title>Rafael Cortês | Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="css/main.css" media="all" rel="stylesheet" type="text/css" />
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-2.0.2.min.js"><\/script>')</script>
+        <script src="js/main.js"></script>
     </head>
     <body>
 	    <header>
 		    <nav>
 			    <ul>
-				    <li class="active"><a href="/">Home</a></li>
-				    <li><a href="/about">About me</a></li>
-				    <li><a href="/experience">Experience</a></li>
-				    <li><a href="/portfolio">Portfolio</a></li>			    
+				    <li class="active"><a href="#home">Home</a></li>
+				    <li><a href="#about">About me</a></li>
+				    <li><a href="#experience">Experience</a></li>
+				    <li><a href="#portfolio">Portfolio</a></li>			    
 			    </ul>
 		    </nav>
 	    </header>
-	    <div id="content">
+	    <div id="home" class="content active">
             <h1>Welcome to my web page</h1>
             <p>Here you can find more about who I am and what I do.</p>
             <p>If you want to reach me, just try any of my contacts.</p>
@@ -29,6 +32,47 @@
                 <li><a href="http://www.twitter.com/mrfyda"><img src="images/twitter.png" alt="twitter" /></a></li>
                 <li><a href="http://www.github.com/mrfyda"><img src="images/github.png" alt="github" /></a></li>
             </ul>
+        </div>
+	    <div id="about" class="content">
+            <h1>Who I am</h1>
+            
+            <p>My name is Rafael Cortês. I live in Lisboa, Portugal.
+               I'm in the last year of my Degree (BSc) in Information Systems and Computer Engineering at <a href="http://ist.utl.pt">Instituto Superior Técnico</a>.</p>
+            <br />    
+            <p>When I'm not programming, I like to listen to Indie and Classic Rock, play guitar, riding a bike and hanging out with my friends.
+                If it's sunny you might also find me geocaching.</p>
+        </div>
+        <div id="experience" class="content">
+            <h2>Programming Skills</h2>
+            <p>Throughout my degree I've learned C, C++ and Java. Also developed using Scheme, Assembly, Prolog, SQL and Lisp.
+               For personal and professional projects I've used PHP, HTML(+CSS+JS) and C#.</p>
+            <br />
+            
+            <h2>Experience</h2>
+            <ul>
+                <li>2012 - Summer internship at <a href="http://www.inov.pt/index_e.php">inov/INESC-ID</a></li>
+            </ul>
+        </div>
+        <div id="portfolio" class="content">
+            <div class="portfolio-item">
+                <h2>dsinov.com [2012]</h2>
+                <br>
+                <p>A web page to present the research group activity.</p>
+                <br />
+                <a href="http://www.dsinov.com">
+                    <img src="images/dsinov.jpg" alt="dsinov.com" />
+                </a>
+            </div>
+            <br />
+            <div class="portfolio-item">
+                <h2>QrCodeR [2010]</h2>
+                <br>
+                <p>QrCodeR is a minimal and non-obstructive Firefox addon to convert text selections, links and images to QrCode with just a right-click. Rated 5/5.</p>
+                <br />
+                <a href="http://addons.mozilla.org/firefox/addon/qrcoder/">
+                    <img src="images/qrcoder.jpg" alt="QrCodeR" />
+                </a>
+            </div>
         </div>
 	    <footer>
 		    <p>© Copyright 2013 Rafael Cortês. Some rights reserved.</p>
